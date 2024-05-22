@@ -1,4 +1,4 @@
-* 01_function-declaration (함수 선언문) */
+/* 01_function-declaration (함수 선언문) */
 
 // 함수 선언문에서는 함수의 이름을 생략할 수 없다.
 function hello(name) {
@@ -12,7 +12,7 @@ console.log(hello('홍길동'));
 거기에 함수 객체를 할당한다.
 즉, 함수는 함수 이름으로 호출하는 것이 아니라 함수 객체를 가리키는 식별자로 호출한다. 
 
-var hello = function hello(name) {
+var hello = function test(name) {
     return `${name}님 안녕하세요!`;
 }
 console.log(hello('홍길동')); => 식별자 hello를 호출
@@ -21,3 +21,7 @@ console.log(hello('홍길동')); => 식별자 hello를 호출
 let test = function(){
     return "hit"
 };
+
+(function() {
+    console.log("dfd")
+})()
