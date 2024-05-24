@@ -10,7 +10,7 @@ console.log(Number(false));         // 0
 // 2. parseInt, parseFloat 함수 이용 (문자열 -> 숫자만 가능)
 console.log(parseInt('10'));        // 10
 console.log(parseFloat('10'));      // 10
-console.log(parseFloat('10.0'));     
+console.log(parseFloat('10.0'));    // 10
 console.log(parseInt('10.01'));     // 10
 console.log(parseFloat('10.01'));   // 10.01
 

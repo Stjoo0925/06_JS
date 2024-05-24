@@ -34,3 +34,7 @@ console.log(10/0);
 console.log(10/-10);
 
 console.log(1*'문자열');
+
+var a = 1+"";
+console.log(a);
+console.log(typeof a);
